@@ -5,8 +5,9 @@ class TestCase(unittest.TestCase):
 	
 	
 	def test1(self):
-		expected = "Hello World"
+		expected = "Hello World1"
 		self.assertEqual(task.my_func(), expected)
+		
 		
 	def test2(self):
 		expected = "Goodbye World"
